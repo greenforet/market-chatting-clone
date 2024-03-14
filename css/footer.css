@@ -1,0 +1,57 @@
+.footer-bar{
+    position: fixed;
+    width: 100vw;
+    bottom:0;
+    background-color: gainsboro;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bar_icons{
+    width: 25px;
+    padding-left: 10px;
+}
+
+
+.footer-bar_1{
+    width: 390px;
+    height: 30px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-bar_message{
+    font-size: 14px;
+    padding-left: 20px;
+    color: gray;
+}
+
+.footer-bar_emogi img{
+    width: 20px;
+    padding-left: 190px;
+
+}
+
+.footer-bar_dot{
+    width: 8px;
+    height: 8px;
+    background-color: tomato;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
+
+.footer-bar_send{
+    width: 20px;
+    padding-right: 30px;
+}

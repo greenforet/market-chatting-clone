@@ -1,0 +1,110 @@
+.talk{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.box1{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.box1_time{
+    width: 70px;
+    color: gray;
+    font-size: 15px;
+    padding-top: 60px;
+    justify-content: left;
+}
+
+.box1_thing{
+    width: 330px;
+    height: 50px;
+    background-color: darkorange;
+    font-size: 20px;
+    padding: 15px 10px 15px 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+}
+
+.box2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.box2_profile img{
+    width: 40px;
+    left: 0;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+.box2_answer{
+    width: 180px;
+    height: 20px;
+    background-color: gainsboro;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.box2_time{
+    width: 70px;
+    color: gray;
+    font-size: 15px;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+
+
+.box3_1{
+    width: 430px;
+    display: flex;
+    flex-direction: row;
+}
+
+.box3_1-emogi{
+    width: 20px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.box3_1-time{
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.box3_2{
+    width: 370px;
+}
+
+.box4{
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: gray;
+    padding: 20px;
+    margin-left: 70px;
+}
